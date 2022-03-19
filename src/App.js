@@ -1,11 +1,13 @@
-import SimpleComponent from './components/simple-component/SimpleComponent';
-import Timer from './components/TimerComponent/Timer';
+import SimpleComponent from './components/simpleComponent/SimpleComponent';
+import Timer from './components/timerComponent/Timer';
+import ToDoList from './components/todoComponent/ToDoList';
 
 function App() {
   return (
     <>
       <SimpleComponent name='Ahmed' />
       <Timer />
+      <ToDoList />
     </>
   );
 }
