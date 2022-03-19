@@ -4,6 +4,7 @@ import ToDoList from './components/todoComponent/ToDoList';
 import Element from './components/element/Element';
 import FormatName from './components/formatName/FormatName';
 import Attributes from './components/attributes/Attributes';
+import TimeElement from './components/timeElement/TimeElement';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Element />
       <FormatName />
       <Attributes />
+      <TimeElement />
     </>
   );
 }
