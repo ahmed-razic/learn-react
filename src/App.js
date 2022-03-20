@@ -5,6 +5,7 @@ import Element from './components/element/Element';
 import FormatName from './components/formatName/FormatName';
 import Attributes from './components/attributes/Attributes';
 import TimeElement from './components/timeElement/TimeElement';
+import Clock from './components/clock/Clock';
 
 function App() {
   return (
@@ -16,6 +17,9 @@ function App() {
       <FormatName />
       <Attributes />
       <TimeElement />
+      <Clock />
+      <Clock />
+      <Clock />
     </>
   );
 }
