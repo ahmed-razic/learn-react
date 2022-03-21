@@ -9,6 +9,7 @@ import Clock from './components/clock/Clock';
 import SubmitForm from './components/submitForm/SubmitForm';
 import Greeting from './components/greeting/Greeting';
 import LoginControl from './components/loginControl/LoginControl';
+import MailBox from './components/mailBox/MailBox';
 
 function App() {
   return (
@@ -26,6 +27,8 @@ function App() {
       <SubmitForm />
       <Greeting isLoggedIn={false} />
       <LoginControl />
+      <MailBox unreadMessages={['React', 'Re: React', 'Re:Re: React']} />
+      <MailBox unreadMessages={[]} />
     </>
   );
 }
