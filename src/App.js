@@ -7,6 +7,8 @@ import Attributes from './components/attributes/Attributes';
 import TimeElement from './components/timeElement/TimeElement';
 import Clock from './components/clock/Clock';
 import SubmitForm from './components/submitForm/SubmitForm';
+import Greeting from './components/greeting/Greeting';
+import LoginControl from './components/loginControl/LoginControl';
 
 function App() {
   return (
@@ -22,6 +24,8 @@ function App() {
       <Clock />
       <Clock />
       <SubmitForm />
+      <Greeting isLoggedIn={false} />
+      <LoginControl />
     </>
   );
 }
