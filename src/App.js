@@ -10,11 +10,13 @@ import SubmitForm from './components/submitForm/SubmitForm';
 import Greeting from './components/greeting/Greeting';
 import LoginControl from './components/loginControl/LoginControl';
 import MailBox from './components/mailBox/MailBox';
+import Page from './components/warning/Page';
+import List from './components/list/List';
 
 function App() {
   return (
     <>
-      <SimpleComponent name='Ahmed' />
+      {/* <SimpleComponent name='Ahmed' />
       <Timer />
       <ToDoList />
       <Element />
@@ -29,6 +31,8 @@ function App() {
       <LoginControl />
       <MailBox unreadMessages={['React', 'Re: React', 'Re:Re: React']} />
       <MailBox unreadMessages={[]} />
+      <Page /> */}
+      <List />
     </>
   );
 }
