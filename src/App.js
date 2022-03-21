@@ -6,6 +6,7 @@ import FormatName from './components/formatName/FormatName';
 import Attributes from './components/attributes/Attributes';
 import TimeElement from './components/timeElement/TimeElement';
 import Clock from './components/clock/Clock';
+import SubmitForm from './components/submitForm/SubmitForm';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <Clock />
       <Clock />
       <Clock />
+      <SubmitForm />
     </>
   );
 }
